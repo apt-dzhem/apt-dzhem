@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Dzhem Aptula — Software &amp; Cloud Engineer" width="780" />
+  <img src="https://raw.githubusercontent.com/apt-dzhem/apt-dzhem/master/assets/banner.svg?v=2" alt="Dzhem Aptula — Software &amp; Cloud Engineer" width="780" />
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@ I work the full lifecycle from design to delivery, and care about systems that a
 **observable, secure, and built to last**.
 
 <p align="center">
-  <img src="./assets/btop.svg" alt="dzhem@archlinux ~/about — about, stack & contact" width="780" />
+  <img src="https://raw.githubusercontent.com/apt-dzhem/apt-dzhem/master/assets/btop.svg?v=2" alt="dzhem@archlinux ~/about — about, stack &amp; contact" width="780" />
 </p>
 
 ### 🎧 Now playing
