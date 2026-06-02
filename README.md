@@ -1,10 +1,10 @@
-# Hyphen 
+# Dzhem 
 
 
-[![](https://vistr.dev/badge?repo=jameshyphen.jameshyphen&corners=square)](https://github.com/jameshyphen)
-[![](https://img.shields.io/badge/-James%20Hyphen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dzhemaptula/)](https://www.linkedin.com/in/dzhemaptula/)
+[![](https://vistr.dev/badge?repo=apt-dzhem.apt-dzhem&corners=square)](https://github.com/apt-dzhem)
+[![](https://img.shields.io/badge/-Dzhem%20Aptula-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dzhemaptula/)](https://www.linkedin.com/in/dzhemaptula/)
 
-- Contact me at: `dzhem@hivecpq.com`
+- Contact me at: `dzhem.aptula@gmail.com`
 
 
 
