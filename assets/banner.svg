@@ -1,0 +1,31 @@
+<svg width="820" height="230" viewBox="0 0 820 230" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SF Mono','DejaVu Sans Mono','Courier New',monospace">
+  <!-- window -->
+  <rect x="1" y="1" width="818" height="228" rx="13" fill="#282a36" stroke="#44475a" stroke-width="1.5"/>
+  <!-- title bar -->
+  <path d="M1 14 A13 13 0 0 1 14 1 H806 A13 13 0 0 1 819 14 V35 H1 Z" fill="#21222c"/>
+  <line x1="1" y1="35" x2="819" y2="35" stroke="#44475a" stroke-width="1"/>
+  <!-- traffic lights -->
+  <circle cx="24" cy="18" r="6" fill="#ff5555"/>
+  <circle cx="44" cy="18" r="6" fill="#f1fa8c"/>
+  <circle cx="64" cy="18" r="6" fill="#50fa7b"/>
+  <text x="410" y="22" text-anchor="middle" font-size="12.5" fill="#6272a4" letter-spacing="0.4">dzhem@archlinux: ~ — zsh</text>
+
+  <!-- prompt: whoami -->
+  <text x="30" y="78" font-size="15.5">
+    <tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~</tspan><tspan fill="#6272a4"> %</tspan><tspan fill="#ff79c6" font-weight="700"> whoami</tspan>
+  </text>
+
+  <!-- name -->
+  <text x="28" y="138" font-size="46" font-weight="800" letter-spacing="-1.5">
+    <tspan fill="#f8f8f2">DZHEM </tspan><tspan fill="#bd93f9">APTULA</tspan>
+  </text>
+
+  <!-- subtitle -->
+  <text x="30" y="170" font-size="15" fill="#6272a4">software &amp; cloud engineer · ghent, BE</text>
+
+  <!-- second prompt + cursor -->
+  <text x="30" y="206" font-size="15.5">
+    <tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~</tspan><tspan fill="#6272a4"> %</tspan>
+  </text>
+  <rect x="207" y="195" width="9" height="16" fill="#50fa7b"/>
+</svg>
