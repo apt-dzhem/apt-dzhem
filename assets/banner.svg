@@ -23,9 +23,9 @@
   <!-- subtitle -->
   <text x="30" y="170" font-size="15" fill="#6272a4">software &amp; cloud engineer · ghent, BE</text>
 
-  <!-- second prompt + cursor -->
+  <!-- second prompt: launch the ~/about terminal -->
   <text x="30" y="206" font-size="15.5">
-    <tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~</tspan><tspan fill="#6272a4"> %</tspan>
+    <tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~</tspan><tspan fill="#6272a4"> %</tspan><tspan fill="#ff79c6" font-weight="700"> cd</tspan><tspan fill="#8be9fd"> ~/about</tspan><tspan fill="#f8f8f2"> &amp;&amp;</tspan><tspan fill="#ff79c6" font-weight="700"> ghostty</tspan><tspan fill="#ffb86c"> &amp;</tspan>
   </text>
-  <rect x="207" y="195" width="9" height="16" fill="#50fa7b"/>
+  <rect x="433" y="195" width="9" height="16" fill="#50fa7b"/>
 </svg>

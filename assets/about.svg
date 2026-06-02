@@ -1,36 +1,70 @@
-<svg width="820" height="478" viewBox="0 0 820 478" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SF Mono','DejaVu Sans Mono','Courier New',monospace">
+<svg width="820" height="470" viewBox="0 0 820 470" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','SF Mono','DejaVu Sans Mono','Courier New',monospace">
+  <defs>
+    <linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="160" y1="0" x2="720" y2="0">
+      <stop offset="0" stop-color="#50fa7b"/>
+      <stop offset="1" stop-color="#8be9fd"/>
+    </linearGradient>
+  </defs>
+
   <!-- window -->
-  <rect x="1" y="1" width="818" height="476" rx="13" fill="#282a36" stroke="#44475a" stroke-width="1.5"/>
-  <!-- title bar -->
+  <rect x="1" y="1" width="818" height="468" rx="13" fill="#282a36" stroke="#44475a" stroke-width="1.5"/>
   <path d="M1 14 A13 13 0 0 1 14 1 H806 A13 13 0 0 1 819 14 V35 H1 Z" fill="#21222c"/>
   <line x1="1" y1="35" x2="819" y2="35" stroke="#44475a" stroke-width="1"/>
   <circle cx="24" cy="18" r="6" fill="#ff5555"/>
   <circle cx="44" cy="18" r="6" fill="#f1fa8c"/>
   <circle cx="64" cy="18" r="6" fill="#50fa7b"/>
-  <text x="410" y="22" text-anchor="middle" font-size="12.5" fill="#6272a4" letter-spacing="0.4">dzhem@archlinux: ~/about — zsh</text>
+  <text x="410" y="22" text-anchor="middle" font-size="12.5" fill="#6272a4" letter-spacing="0.4">dzhem@archlinux: ~/about — btop</text>
 
-  <!-- $ cat about.yaml -->
-  <text x="28" y="66" font-size="14"><tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~/about</tspan><tspan fill="#6272a4"> %</tspan><tspan fill="#ff79c6" font-weight="700"> cat about.yaml</tspan></text>
-  <text x="28" y="92"  font-size="14"><tspan fill="#6272a4">role:     </tspan><tspan fill="#f8f8f2">Software &amp; Cloud Engineer</tspan></text>
-  <text x="28" y="115" font-size="14"><tspan fill="#6272a4">location: </tspan><tspan fill="#f8f8f2">Ghent, Belgium</tspan></text>
-  <text x="28" y="138" font-size="14"><tspan fill="#6272a4">focus:    </tspan><tspan fill="#8be9fd">[cloud-platforms, kubernetes, azure, ai-ml, devops, backend]</tspan></text>
-  <text x="28" y="161" font-size="14"><tspan fill="#6272a4">building: </tspan><tspan fill="#f8f8f2">scalable · observable · secure systems</tspan></text>
-  <text x="28" y="184" font-size="14"><tspan fill="#6272a4">editor:   </tspan><tspan fill="#f8f8f2">nvim</tspan></text>
-  <text x="28" y="207" font-size="14"><tspan fill="#6272a4">os:       </tspan><tspan fill="#f8f8f2">arch</tspan><tspan fill="#6272a4" font-style="italic">   # btw</tspan></text>
+  <!-- header -->
+  <text x="22" y="58" font-size="13"><tspan fill="#50fa7b" font-weight="700">btop</tspan><tspan fill="#6272a4">  ·  monitoring dzhem-aptula</tspan></text>
+  <text x="798" y="58" text-anchor="end" font-size="12" fill="#6272a4">uptime 5y+ · load: shipping</text>
 
-  <!-- $ kubectl get stack -->
-  <text x="28" y="237" font-size="14"><tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~/about</tspan><tspan fill="#6272a4"> %</tspan><tspan fill="#ff79c6" font-weight="700"> kubectl get stack</tspan></text>
-  <text x="28" y="263" font-size="14"><tspan fill="#bd93f9">languages </tspan><tspan fill="#6272a4">: </tspan><tspan fill="#f8f8f2">Java · Spring · Python · Go · TypeScript</tspan></text>
-  <text x="28" y="286" font-size="14"><tspan fill="#bd93f9">cloud/ops </tspan><tspan fill="#6272a4">: </tspan><tspan fill="#f8f8f2">Azure · Kubernetes · Terraform · ArgoCD · Docker · GH-Actions</tspan></text>
-  <text x="28" y="309" font-size="14"><tspan fill="#bd93f9">data/ai   </tspan><tspan fill="#6272a4">: </tspan><tspan fill="#f8f8f2">LangGraph · Databricks · Postgres · Redis · Spark</tspan></text>
+  <!-- ===== skills box ===== -->
+  <rect x="14" y="72" width="792" height="182" rx="9" fill="none" stroke="#44475a" stroke-width="1.3"/>
+  <rect x="30" y="66" width="56" height="12" fill="#282a36"/>
+  <text x="36" y="76" font-size="12.5" font-weight="700" fill="#50fa7b">skills</text>
+  <text x="775" y="76" text-anchor="end" font-size="11.5" fill="#6272a4">cores: 6 · 94% avg</text>
 
-  <!-- $ cat contact.txt -->
-  <text x="28" y="339" font-size="14"><tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~/about</tspan><tspan fill="#6272a4"> %</tspan><tspan fill="#ff79c6" font-weight="700"> cat contact.txt</tspan></text>
-  <text x="28" y="365" font-size="14"><tspan fill="#6272a4">linkedin : </tspan><tspan fill="#8be9fd">linkedin.com/in/dzhemaptula</tspan></text>
-  <text x="28" y="388" font-size="14"><tspan fill="#6272a4">email    : </tspan><tspan fill="#8be9fd">dzhem.aptula@gmail.com</tspan></text>
-  <text x="28" y="411" font-size="14"><tspan fill="#6272a4">cv       : </tspan><tspan fill="#f8f8f2">available on request</tspan><tspan fill="#6272a4">  ↦  </tspan><tspan fill="#8be9fd">dzhem.aptula@gmail.com</tspan></text>
+  <!-- skill bars -->
+  <g font-size="13.5">
+    <text x="32" y="108" fill="#f8f8f2">azure</text>
+    <rect x="160" y="99" width="560" height="11" rx="3" fill="#343746"/><rect x="160" y="99" width="549" height="11" rx="3" fill="url(#bar)"/>
+    <text x="788" y="108" text-anchor="end" fill="#50fa7b">expert</text>
 
-  <!-- idle prompt + cursor -->
-  <text x="28" y="441" font-size="14"><tspan fill="#50fa7b" font-weight="700">dzhem@archlinux</tspan><tspan fill="#8be9fd"> ~/about</tspan><tspan fill="#6272a4"> %</tspan></text>
-  <rect x="240" y="430" width="9" height="15" fill="#50fa7b"/>
+    <text x="32" y="133" fill="#f8f8f2">kubernetes</text>
+    <rect x="160" y="124" width="560" height="11" rx="3" fill="#343746"/><rect x="160" y="124" width="532" height="11" rx="3" fill="url(#bar)"/>
+    <text x="788" y="133" text-anchor="end" fill="#50fa7b">expert</text>
+
+    <text x="32" y="158" fill="#f8f8f2">terraform</text>
+    <rect x="160" y="149" width="560" height="11" rx="3" fill="#343746"/><rect x="160" y="149" width="515" height="11" rx="3" fill="url(#bar)"/>
+    <text x="788" y="158" text-anchor="end" fill="#50fa7b">expert</text>
+
+    <text x="32" y="183" fill="#f8f8f2">java / spring</text>
+    <rect x="160" y="174" width="560" height="11" rx="3" fill="#343746"/><rect x="160" y="174" width="538" height="11" rx="3" fill="url(#bar)"/>
+    <text x="788" y="183" text-anchor="end" fill="#50fa7b">expert</text>
+
+    <text x="32" y="208" fill="#f8f8f2">python</text>
+    <rect x="160" y="199" width="560" height="11" rx="3" fill="#343746"/><rect x="160" y="199" width="521" height="11" rx="3" fill="url(#bar)"/>
+    <text x="788" y="208" text-anchor="end" fill="#50fa7b">expert</text>
+
+    <text x="32" y="233" fill="#f8f8f2">langgraph / ai</text>
+    <rect x="160" y="224" width="560" height="11" rx="3" fill="#343746"/><rect x="160" y="224" width="493" height="11" rx="3" fill="url(#bar)"/>
+    <text x="788" y="233" text-anchor="end" fill="#8be9fd">advanced</text>
+  </g>
+
+  <!-- ===== whoami box (about + contact combined) ===== -->
+  <rect x="14" y="268" width="792" height="186" rx="9" fill="none" stroke="#44475a" stroke-width="1.3"/>
+  <rect x="30" y="262" width="68" height="12" fill="#282a36"/>
+  <text x="36" y="272" font-size="12.5" font-weight="700" fill="#bd93f9">whoami</text>
+
+  <g font-size="13.5">
+    <text x="32" y="300"><tspan fill="#6272a4">role      </tspan><tspan fill="#f8f8f2">Software &amp; Cloud Engineer</tspan></text>
+    <text x="32" y="322"><tspan fill="#6272a4">location  </tspan><tspan fill="#f8f8f2">Ghent, Belgium</tspan></text>
+    <text x="32" y="344"><tspan fill="#6272a4">focus     </tspan><tspan fill="#8be9fd">cloud-platforms · kubernetes · azure · ai-ml · devops · backend</tspan></text>
+    <text x="32" y="366"><tspan fill="#6272a4">env       </tspan><tspan fill="#f8f8f2">nvim</tspan><tspan fill="#6272a4">  ·  os </tspan><tspan fill="#f8f8f2">arch</tspan><tspan fill="#6272a4" font-style="italic">  # btw</tspan></text>
+    <line x1="32" y1="380" x2="788" y2="380" stroke="#343746" stroke-width="1"/>
+    <text x="32" y="402"><tspan fill="#6272a4">linkedin  </tspan><tspan fill="#8be9fd">linkedin.com/in/dzhemaptula</tspan></text>
+    <text x="32" y="424"><tspan fill="#6272a4">email     </tspan><tspan fill="#8be9fd">dzhem.aptula@gmail.com</tspan></text>
+    <text x="32" y="446"><tspan fill="#6272a4">cv        </tspan><tspan fill="#f8f8f2">available on request</tspan><tspan fill="#6272a4">  ↦  </tspan><tspan fill="#8be9fd">dzhem.aptula@gmail.com</tspan></text>
+  </g>
 </svg>
